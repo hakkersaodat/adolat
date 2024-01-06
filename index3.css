@@ -1,0 +1,58 @@
+nav ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul li{
+	list-style: none;
+	padding: 12px;
+	font-size: 18px
+	color:black;
+}
+
+nav ul li:hover{
+	color: gray;
+}
+
+nav ul li button{
+	padding: 10px 25px;
+}
+
+nav ul li:first-child{
+	margin-right: auto;
+}
+
+nav ul li:last-child{
+	margin-left: auto;
+}
+
+section .container .parent .child img{
+	width:80%;
+}
+
+section .container .parent .child{
+	margin-left: auto;
+}
+
+.parent{
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+}
+
+section{
+	background-color: #eee;
+}
+
+button{
+	padding: 12px 29px;
+	border-radius: 50px;
+	background-color: transparent;
+}
+
+nav ul li button{
+	background-color: #ce1212;
+	color: #fff;
+}
